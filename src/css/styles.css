@@ -16,5 +16,54 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin: 16px;
+  border-radius: 10px;
+  
+}
+/* мои стили */
+
+p {
+  margin: 0;
+  padding: 10px;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.country-list__item,
+.card-title {
+  display: flex;
+  align-items: center;
+}
+
+.country-list__item p {
+  font-weight: 700;
+}
+.country-list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.js-single-card {
+  list-style: none;
+}
+
+.card-title img {
+  margin-right: 20px;
+}
+
+.card-title > span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-item {
+  font-weight: 700;
+}
+li {
+  background-color: rgb(51, 255, 0);
+  width: auto;
+}
+ul{
+  width: 200px;
+
 }
